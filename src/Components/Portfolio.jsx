@@ -31,31 +31,30 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "IOT Smart Home",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "This is an IOT Smart Home Automation using Raspberry pi and Azure Cloud Services. This project is a web server that can be accessed frome anywhere in the world and that allows users to control, monitor and automate their home environment.",
+    url: "https://github.com/naomitesfe/iot-smart-home",
   },
   {
-    title: "Web Development for Beginners",
+    title: "IT Helpdesk Website",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "This is an IT Help Desk System built using PHP and SQL. It allows users to report their issues and get them resolved by the IT team. The system keeps track of all the issues reported, their status, and the IT team member handling them. I used HTML, CSS, JavaScript to develop the front-end and back-end of the app.",
+    url: "https://github.com/naomitesfe/IT_helpdesk_website",
   },
   {
     title: "My Resume Site",
     description:
       "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    url: "https://github.com/naomitesfe/portfolio",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Careers Website",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "This is a careers website JJ(Jobs Junction), a platform dedicated to connecting job seekers with their dream jobs. The website provides a user-friendly interface for exploring job listings, submitting applications, and learning more about potential employers.",
+    url: "https://github.com/naomitesfe/JJ-careers-website",
   },
 ];
-
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
